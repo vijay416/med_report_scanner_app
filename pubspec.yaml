@@ -1,0 +1,20 @@
+name: med_report_scanner_app
+description: A Flutter app to scan medical reports, OCR, tag, save, export PDF/CSV.
+publish_to: 'none'
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.0.0
+  firebase_storage: ^11.0.0
+  google_mlkit_text_recognition: ^0.10.0
+  image_picker: ^1.0.0
+  csv: ^5.0.0
+  path_provider: ^2.0.14
+  share_plus: ^6.3.0
+  pdf: ^3.10.1
+  printing: ^5.11.0
